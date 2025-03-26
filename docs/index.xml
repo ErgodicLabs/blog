@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ergodic Labs blog</title>
-    <link>//localhost:1313/</link>
+    <link>https://ergodiclabs.github.io/blog/</link>
     <description>Recent content on Ergodic Labs blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ergodiclabs.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>//localhost:1313/layouts/partials/extended_footer/</link>
+      <link>https://ergodiclabs.github.io/blog/layouts/partials/extended_footer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/layouts/partials/extended_footer/</guid>
+      <guid>https://ergodiclabs.github.io/blog/layouts/partials/extended_footer/</guid>
       <description>&lt;!--&#xA;To add an extended footer section, please create&#xA;`layouts/partials/extended_footer.html` in your Hugo directory.&#xA;--&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/layouts/partials/extended_head/</link>
+      <link>https://ergodiclabs.github.io/blog/layouts/partials/extended_head/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/layouts/partials/extended_head/</guid>
+      <guid>https://ergodiclabs.github.io/blog/layouts/partials/extended_head/</guid>
       <description>&lt;!--&#xA;To add an extended head section, please create&#xA;`layouts/partials/extended_head.html` in your Hugo directory.&#xA;--&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/layouts/partials/footer/</link>
+      <link>https://ergodiclabs.github.io/blog/layouts/partials/footer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/layouts/partials/footer/</guid>
+      <guid>https://ergodiclabs.github.io/blog/layouts/partials/footer/</guid>
       <description>&lt;footer class=&#34;footer&#34;&gt;&#xA;  &lt;div class=&#34;footer__inner&#34;&gt;&#xA;    {{ if $.Site.Copyright }}&#xA;      &lt;div class=&#34;copyright copyright--user&#34;&gt;&#xA;        &lt;span&gt;{{ $.Site.Copyright | safeHTML }}&lt;/span&gt;&#xA;    {{ else }}&#xA;      &lt;div class=&#34;copyright&#34;&gt;&#xA;        &lt;span&gt;© {{ now.Year }} Powered by &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;&lt;/span&gt;&#xA;    {{ end }}&#xA;      &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/footer&gt;&#xA;&#xA;{{ $menu := resources.Get &#34;js/menu.js&#34; | js.Build }}&#xA;{{ $cp := resources.Get &#34;js/code.js&#34; | js.Build }}&#xA;&#xA;{{ $bundle := slice $menu $cp | resources.Concat &#34;bundle.js&#34; | resources.Minify }}&#xA;&#xA;&lt;script type=&#34;text/javascript&#34; src=&#34;{{ $bundle.RelPermalink }}&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;!-- Extended footer section--&gt;&#xA;{{ partial &#34;extended_footer.html&#34; . }}</description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/layouts/partials/header/</link>
+      <link>https://ergodiclabs.github.io/blog/layouts/partials/header/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/layouts/partials/header/</guid>
+      <guid>https://ergodiclabs.github.io/blog/layouts/partials/header/</guid>
       <description>&lt;header class=&#34;header&#34;&gt;&#xA;  &lt;div class=&#34;header__inner&#34;&gt;&#xA;    &lt;div class=&#34;header__logo&#34;&gt;&#xA;      {{ partial &#34;logo.html&#34; . }}&#xA;    &lt;/div&gt;&#xA;    {{ if len $.Site.Menus }}&#xA;      {{ partial &#34;mobile-menu.html&#34; . }}&#xA;    {{ end }}&#xA;    {{ if and $.Site.Params.showLanguageSelector (len $.Site.Home.AllTranslations) }}&#xA;      {{ partial &#34;language-menu.html&#34; . }}&#xA;    {{ end }}&#xA;  &lt;/div&gt;&#xA;  {{ if len $.Site.Menus }}&#xA;    {{ partial &#34;menu.html&#34; . }}&#xA;  {{ end }}&#xA;&lt;/header&gt;</description>
     </item>
   </channel>
