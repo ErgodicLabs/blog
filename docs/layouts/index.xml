@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ergodic Labs blog</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on Ergodic Labs blog</description>
+    <title>Layouts on Ergodic Labs blog</title>
+    <link>//localhost:1313/layouts/</link>
+    <description>Recent content in Layouts on Ergodic Labs blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/layouts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>//localhost:1313/layouts/partials/extended_footer/</link>

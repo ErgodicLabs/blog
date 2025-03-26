@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta name="generator" content="Hugo 0.145.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
-    <title>Ergodic Labs blog</title>
+    <title> :: Ergodic Labs blog</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="" />
+<meta name="description" content=" {{ if $.Site.Copyright }} {{ $.Site.Copyright | safeHTML }} {{ else }} © {{ now.Year }} Powered by Hugo {{ end }} {{ $menu := resources.Get &#34;js/menu.js&#34; | js.Build }} {{ $cp := resources.Get &#34;js/code.js&#34; | js.Build }} {{ $bundle := slice $menu $cp | resources.Concat &#34;bundle.js&#34; | resources.Minify }} {{ partial &#34;extended_footer.html&#34; . }}" />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="//localhost:1313/" />
+<link rel="canonical" href="//localhost:1313/layouts/partials/footer/" />
 
 
 
@@ -72,10 +71,10 @@
 
 
 <meta property="og:locale" content="en" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Ergodic Labs blog">
-<meta property="og:description" content="" />
-<meta property="og:url" content="//localhost:1313/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="">
+<meta property="og:description" content=" {{ if $.Site.Copyright }} {{ $.Site.Copyright | safeHTML }} {{ else }} © {{ now.Year }} Powered by Hugo {{ end }} {{ $menu := resources.Get &#34;js/menu.js&#34; | js.Build }} {{ $cp := resources.Get &#34;js/code.js&#34; | js.Build }} {{ $bundle := slice $menu $cp | resources.Concat &#34;bundle.js&#34; | resources.Minify }} {{ partial &#34;extended_footer.html&#34; . }}" />
+<meta property="og:url" content="//localhost:1313/layouts/partials/footer/" />
 <meta property="og:site_name" content="Ergodic Labs blog" />
 
   <meta property="og:image" content="//localhost:1313/og-image.png">
@@ -86,8 +85,6 @@
 
 
 
-
-  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Ergodic Labs blog" />
 
 
 
@@ -122,28 +119,51 @@
 
   <div class="content">
     
+<article class="post">
+  <h1 class="post-title">
+    <a href="//localhost:1313/layouts/partials/footer/"></a>
+  </h1>
+  <div class="post-meta"></div>
+
   
-  <div class="posts">
-    
-    
+  
 
-    
-    
-      
-    
-    
 
-    
+  
 
-    <div class="pagination">
-  <div class="pagination__buttons">
-    
-    
-    
+  <div class="post-content"><div>
+        <footer class="footer">
+  <div class="footer__inner">
+    {{ if $.Site.Copyright }}
+      <div class="copyright copyright--user">
+        <span>{{ $.Site.Copyright | safeHTML }}</span>
+    {{ else }}
+      <div class="copyright">
+        <span>© {{ now.Year }} Powered by <a href="https://gohugo.io">Hugo</a></span>
+    {{ end }}
+      </div>
   </div>
-</div>
+</footer>
 
-  </div>
+{{ $menu := resources.Get "js/menu.js" | js.Build }}
+{{ $cp := resources.Get "js/code.js" | js.Build }}
+
+{{ $bundle := slice $menu $cp | resources.Concat "bundle.js" | resources.Minify }}
+
+<script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
+
+<!-- Extended footer section-->
+{{ partial "extended_footer.html" . }}
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
 
   </div>
 
