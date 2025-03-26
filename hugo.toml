@@ -1,4 +1,4 @@
-baseURL = 'https://ergodiclabs.github.io/blog/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Ergodic Labs blog'
 
