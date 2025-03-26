@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ergodic Labs blog</title>
-    <link>/</link>
+    <link>https://ergodiclabs.github.io/blog/</link>
     <description>Recent content on Ergodic Labs blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ergodiclabs.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
