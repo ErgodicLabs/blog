@@ -1,0 +1,10 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Ergodic Labs blog'
+
+theme = "terminal"
+pagination.pagerSize = 5
+
+[markup.highlight]
+noClasses = false
+
