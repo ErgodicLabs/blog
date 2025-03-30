@@ -34,6 +34,8 @@ publishDir = "docs"
   # With this option you don't have to put the `cover` param in a front-matter.
   autoCover = true
 
+  readMore = "more"
+
 [params.logo]
   logoText = "Ergodic Labs blog"
 
