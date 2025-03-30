@@ -1,5 +1,6 @@
 ---
 title: "Every app will become an AI app, just not in the way that you think"
+author: moorkh
 date: 2025-03-30
 draft: false
 tags: ["ai"]
