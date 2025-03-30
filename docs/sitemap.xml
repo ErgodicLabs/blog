@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/tags/ai/</loc>
+    <loc>https://ergodiclabs.github.io/blog/tags/ai/</loc>
     <lastmod>2025-03-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>https://ergodiclabs.github.io/blog/</loc>
     <lastmod>2025-03-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/ai-mode-shift-2025-03/</loc>
+    <loc>https://ergodiclabs.github.io/blog/posts/ai-mode-shift-2025-03/</loc>
     <lastmod>2025-03-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>https://ergodiclabs.github.io/blog/posts/</loc>
     <lastmod>2025-03-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>https://ergodiclabs.github.io/blog/tags/</loc>
     <lastmod>2025-03-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/layouts/partials/extended_footer/</loc>
+    <loc>https://ergodiclabs.github.io/blog/layouts/partials/extended_footer/</loc>
   </url><url>
-    <loc>//localhost:1313/layouts/partials/extended_head/</loc>
+    <loc>https://ergodiclabs.github.io/blog/layouts/partials/extended_head/</loc>
   </url><url>
-    <loc>//localhost:1313/layouts/partials/footer/</loc>
+    <loc>https://ergodiclabs.github.io/blog/layouts/partials/footer/</loc>
   </url><url>
-    <loc>//localhost:1313/layouts/partials/header/</loc>
+    <loc>https://ergodiclabs.github.io/blog/layouts/partials/header/</loc>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>https://ergodiclabs.github.io/blog/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/layouts/</loc>
+    <loc>https://ergodiclabs.github.io/blog/layouts/</loc>
   </url>
 </urlset>
