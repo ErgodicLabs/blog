@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Ergodic Labs blog</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Ergodic Labs blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Every app will become an AI app, just not in the way that you think</title>
+      <link>/posts/ai-mode-shift-2025-03/</link>
+      <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/ai-mode-shift-2025-03/</guid>
+      <description>&lt;p&gt;Yes, every app will become an AI app. But it won’t happen because every app adopts AI. It will happen because AI learns to be a power user of every app.&lt;/p&gt;&#xA;&lt;p&gt;The shape of AI products is changing. The user experience is no longer defined by screens and buttons. Models are becoming the user interface.&lt;/p&gt;&#xA;&lt;h3 id=&#34;last-cycle&#34;&gt;Last cycle&lt;/h3&gt;&#xA;&lt;p&gt;In the last cycle, AI products looked like AI Dungeon, Jasper.ai, and GitHub Copilot. These apps didn’t expose models directly. Instead, they embedded them behind carefully constructed prompts and application-specific logic. The prompts were fixed and put the models on rails.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
