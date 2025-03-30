@@ -42,3 +42,7 @@ publishDir = "docs"
 # Required for syntax highlighting
 [markup.highlight]
   noClasses = false
+
+[services]
+  [services.googleAnalytics]
+    id = "G-FTE60X8VDH"
