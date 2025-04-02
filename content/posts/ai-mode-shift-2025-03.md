@@ -1,15 +1,15 @@
 ---
-title: "Every app will become an AI app, just not in the way that you think"
+title: "The Model Context Protocol signals a mode shift in AI products"
 author: moorkh
 date: 2025-03-30
 draft: false
 tags: ["ai"]
 ---
 
+The shape of AI products is changing. The user experience is no longer defined by screens and buttons. Models are becoming the user interface. The [Model Context Protocol](https://modelcontextprotocol.io), [released by Anthropic in November of 2024](https://www.anthropic.com/news/model-context-protocol), is a clear signal of this mode shift.
 
-Yes, every app will become an AI app. But it won’t happen because every app adopts AI. It will happen because AI learns to be a power user of every app.
+Every app will become an AI app. That won’t change. But it won’t happen because every app adopts AI. It will happen because AI learns to be a power user of every app.
 
-The shape of AI products is changing. The user experience is no longer defined by screens and buttons. Models are becoming the user interface.
 
 ### Last cycle
 
@@ -41,20 +41,20 @@ Jasper's fall from grace is again instructive. Its value wasn’t in doing somet
 
 ### Model Context Protocol
 
-This shift demands new infrastructure. Anthropic introduced it in November 2024 in the form of the Model Context Protocol (MCP).
+Anthropic’s introduction of the Model Context Protocol (MCP) by Anthropic marks an important milestone. MCP is a standardized protocol designed to clearly define how AI models communicate and interact with external applications and tools. By standardizing these interactions, MCP directly addresses the brittle, inconsistent integrations seen in earlier agentic frameworks like LangChain or AutoGPT.
 
-MCP standardizes connections between AI models and external apps. The Model Context Protocol is inspired by the Language Server Protocol (LSP), which was instrumental in Visual Studio Code attaining dominance among code editors. MCP lets models invoke application capabilities through a standardized interface.
+This standardization is critical because it enables AI products to reliably and predictably orchestrate tasks across multiple applications, ensuring that user intent can be consistently translated into effective action. It is the infrastructure necessary for the mode shift from narrow embedded AI models toward more flexible, general-purpose model interactions.
 
-Today, in April 2025, MCP has been adopted by major platforms \-- Anthropic, Cursor, and OpenAI. This signals strong industry momentum.
+MCP is inspired by the Language Server Protocol (LSP), which was instrumental in Visual Studio Code attaining dominance among code editors. If the transformative impact of LSP among developer tools is anything to go by, MCP is going to take the world by storm. MCP has already been adopted by the most significant AI platforms – Anthropic, Cursor, and OpenAI.
 
 MCP servers already demonstrate significant value. For example,
 
-* GitHub MCP servers let programmers seamlessly manage repositories and automate commits directly through AI models.  
-* Blender MCP servers allow users to control 3D modeling tasks through simple AI prompts, dramatically simplifying complex graphical workflows.
+* [GitHub MCP servers](https://github.com/modelcontextprotocol/servers/tree/main/src/github) let programmers seamlessly manage repositories and automate commits directly through AI models.  
+* [Blender MCP servers](https://blender-mcp.com/) allow users to control 3D modeling tasks through simple AI prompts, dramatically simplifying complex graphical workflows.
 
-There are already products like smithery.ai which allow power users to add MCP servers to applications which support them.
+There are already products like [smithery.ai](https://smithery.ai/) which allow power users to add MCP servers to applications which support them. They also make the distribution of MCP servers simple.
 
-This structural shift has deep implications for builders. The AI interface itself is becoming the primary product, while traditional applications transition to backend services. Builders will increasingly focus not on building full-stack applications but on creating surfaces easily addressable by AI models. The value of an application will hinge on how effectively it integrates with and enhances model-driven workflows, rather than direct user interactions alone.
+The structural shift that MCP represents has deep implications for builders. The AI interface itself is becoming the primary product, while traditional applications transition to backend services. Builders will increasingly focus not on building full-stack applications but on creating surfaces easily addressable by AI models. The value of an application will hinge on how effectively it integrates with and enhances model-driven workflows, rather than direct user interactions alone.
 
 ### Open problems
 

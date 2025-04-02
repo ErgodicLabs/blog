@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
   
-    <title>Every app will become an AI app, just not in the way that you think :: Ergodic Labs blog</title>
+    <title>The Model Context Protocol signals a mode shift in AI products :: Ergodic Labs blog</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Yes, every app will become an AI app. But it won’t happen because every app adopts AI. It will happen because AI learns to be a power user of every app.
-The shape of AI products is changing. The user experience is no longer defined by screens and buttons. Models are becoming the user interface.
-Last cycle In the last cycle, AI products looked like AI Dungeon, Jasper.ai, and GitHub Copilot. These apps didn’t expose models directly. Instead, they embedded them behind carefully constructed prompts and application-specific logic. The prompts were fixed and put the models on rails.
+<meta name="description" content="The shape of AI products is changing. The user experience is no longer defined by screens and buttons. Models are becoming the user interface. The Model Context Protocol, released by Anthropic in November of 2024, is a clear signal of this mode shift.
+Every app will become an AI app. That won’t change. But it won’t happen because every app adopts AI. It will happen because AI learns to be a power user of every app.
 " />
 <meta name="keywords" content="" />
 
@@ -89,10 +88,9 @@ Last cycle In the last cycle, AI products looked like AI Dungeon, Jasper.ai, and
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Every app will become an AI app, just not in the way that you think">
-<meta property="og:description" content="Yes, every app will become an AI app. But it won’t happen because every app adopts AI. It will happen because AI learns to be a power user of every app.
-The shape of AI products is changing. The user experience is no longer defined by screens and buttons. Models are becoming the user interface.
-Last cycle In the last cycle, AI products looked like AI Dungeon, Jasper.ai, and GitHub Copilot. These apps didn’t expose models directly. Instead, they embedded them behind carefully constructed prompts and application-specific logic. The prompts were fixed and put the models on rails.
+<meta property="og:title" content="The Model Context Protocol signals a mode shift in AI products">
+<meta property="og:description" content="The shape of AI products is changing. The user experience is no longer defined by screens and buttons. Models are becoming the user interface. The Model Context Protocol, released by Anthropic in November of 2024, is a clear signal of this mode shift.
+Every app will become an AI app. That won’t change. But it won’t happen because every app adopts AI. It will happen because AI learns to be a power user of every app.
 " />
 <meta property="og:url" content="https://ergodiclabs.github.io/blog/posts/ai-mode-shift-2025-03/" />
 <meta property="og:site_name" content="Ergodic Labs blog" />
@@ -143,7 +141,7 @@ Last cycle In the last cycle, AI products looked like AI Dungeon, Jasper.ai, and
     
 <article class="post">
   <h1 class="post-title">
-    <a href="https://ergodiclabs.github.io/blog/posts/ai-mode-shift-2025-03/">Every app will become an AI app, just not in the way that you think</a>
+    <a href="https://ergodiclabs.github.io/blog/posts/ai-mode-shift-2025-03/">The Model Context Protocol signals a mode shift in AI products</a>
   </h1>
   <div class="post-meta"><time class="post-date">2025-03-30</time><span class="post-author">moorkh</span></div>
 
@@ -160,8 +158,8 @@ Last cycle In the last cycle, AI products looked like AI Dungeon, Jasper.ai, and
   
 
   <div class="post-content"><div>
-        <p>Yes, every app will become an AI app. But it won’t happen because every app adopts AI. It will happen because AI learns to be a power user of every app.</p>
-<p>The shape of AI products is changing. The user experience is no longer defined by screens and buttons. Models are becoming the user interface.</p>
+        <p>The shape of AI products is changing. The user experience is no longer defined by screens and buttons. Models are becoming the user interface. The <a href="https://modelcontextprotocol.io">Model Context Protocol</a>, <a href="https://www.anthropic.com/news/model-context-protocol">released by Anthropic in November of 2024</a>, is a clear signal of this mode shift.</p>
+<p>Every app will become an AI app. That won’t change. But it won’t happen because every app adopts AI. It will happen because AI learns to be a power user of every app.</p>
 <h3 id="last-cycle">Last cycle<a href="#last-cycle" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>In the last cycle, AI products looked like AI Dungeon, Jasper.ai, and GitHub Copilot. These apps didn’t expose models directly. Instead, they embedded them behind carefully constructed prompts and application-specific logic. The prompts were fixed and put the models on rails.</p>
 <p>Jasper is a particularly clear case. It was early to market and quickly captured attention as a productized application of LLMs for marketing and content creation. Its initial value came entirely from its prompt templates. As soon as users had access to a general-purpose interface like ChatGPT, Jasper&rsquo;s moat disappeared. Why would most users pay more for a separate app when ChatGPT did the same and more for cheaper?</p>
@@ -177,16 +175,16 @@ Last cycle In the last cycle, AI products looked like AI Dungeon, Jasper.ai, and
 <p>Even when interacting with complex tools like Figma, Photoshop, or Notion, users increasingly want to delegate entire projects to their models. They don’t want the AI embedded in the app. They want the AI that they use every day to use the app on their behalf.</p>
 <p>Jasper&rsquo;s fall from grace is again instructive. Its value wasn’t in doing something a model couldn’t do. It was obscuring the need for users to interact with the model directly. Once general-purpose interfaces became usable, its earlier position was no longer defensible. The same dynamic now threatens every application that assumes the AI should be embedded, not externalized.</p>
 <h3 id="model-context-protocol">Model Context Protocol<a href="#model-context-protocol" class="hanchor" ariaLabel="Anchor">#</a> </h3>
-<p>This shift demands new infrastructure. Anthropic introduced it in November 2024 in the form of the Model Context Protocol (MCP).</p>
-<p>MCP standardizes connections between AI models and external apps. The Model Context Protocol is inspired by the Language Server Protocol (LSP), which was instrumental in Visual Studio Code attaining dominance among code editors. MCP lets models invoke application capabilities through a standardized interface.</p>
-<p>Today, in April 2025, MCP has been adopted by major platforms -- Anthropic, Cursor, and OpenAI. This signals strong industry momentum.</p>
+<p>Anthropic’s introduction of the Model Context Protocol (MCP) by Anthropic marks an important milestone. MCP is a standardized protocol designed to clearly define how AI models communicate and interact with external applications and tools. By standardizing these interactions, MCP directly addresses the brittle, inconsistent integrations seen in earlier agentic frameworks like LangChain or AutoGPT.</p>
+<p>This standardization is critical because it enables AI products to reliably and predictably orchestrate tasks across multiple applications, ensuring that user intent can be consistently translated into effective action. It is the infrastructure necessary for the mode shift from narrow embedded AI models toward more flexible, general-purpose model interactions.</p>
+<p>MCP is inspired by the Language Server Protocol (LSP), which was instrumental in Visual Studio Code attaining dominance among code editors. If the transformative impact of LSP among developer tools is anything to go by, MCP is going to take the world by storm. MCP has already been adopted by the most significant AI platforms – Anthropic, Cursor, and OpenAI.</p>
 <p>MCP servers already demonstrate significant value. For example,</p>
 <ul>
-<li>GitHub MCP servers let programmers seamlessly manage repositories and automate commits directly through AI models.</li>
-<li>Blender MCP servers allow users to control 3D modeling tasks through simple AI prompts, dramatically simplifying complex graphical workflows.</li>
+<li><a href="https://github.com/modelcontextprotocol/servers/tree/main/src/github">GitHub MCP servers</a> let programmers seamlessly manage repositories and automate commits directly through AI models.</li>
+<li><a href="https://blender-mcp.com/">Blender MCP servers</a> allow users to control 3D modeling tasks through simple AI prompts, dramatically simplifying complex graphical workflows.</li>
 </ul>
-<p>There are already products like smithery.ai which allow power users to add MCP servers to applications which support them.</p>
-<p>This structural shift has deep implications for builders. The AI interface itself is becoming the primary product, while traditional applications transition to backend services. Builders will increasingly focus not on building full-stack applications but on creating surfaces easily addressable by AI models. The value of an application will hinge on how effectively it integrates with and enhances model-driven workflows, rather than direct user interactions alone.</p>
+<p>There are already products like <a href="https://smithery.ai/">smithery.ai</a> which allow power users to add MCP servers to applications which support them. They also make the distribution of MCP servers simple.</p>
+<p>The structural shift that MCP represents has deep implications for builders. The AI interface itself is becoming the primary product, while traditional applications transition to backend services. Builders will increasingly focus not on building full-stack applications but on creating surfaces easily addressable by AI models. The value of an application will hinge on how effectively it integrates with and enhances model-driven workflows, rather than direct user interactions alone.</p>
 <h3 id="open-problems">Open problems<a href="#open-problems" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>As a builder, the most exciting part of all is how much there is left to figure out. These are just some of the open problems we need to solve to bring about the next cycle of AI products:</p>
 <h4 id="i-can-open-source-llms-participate-in-the-next-cycle">I. Can open source LLMs participate in the next cycle?<a href="#i-can-open-source-llms-participate-in-the-next-cycle" class="hanchor" ariaLabel="Anchor">#</a> </h4>
