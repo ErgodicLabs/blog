@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Code is a scalpel, prose is a chainsaw :: Ergodic Labs blog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Every time I sit down to program these days, there is an annoying thought in the back of my mind that I should be programming with AI. While I have had some good experiences building things with Cursor and especially with Claude Code, I have also found that it is a waste of my time to use them when working on complex programs using tools that I am very comfortable with.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://ergodiclabs.github.io/blog/posts/code-is-a-scalpel/" />
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTE60X8VDH"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-FTE60X8VDH');
+        }
+      </script>
+
+
+
+  
+  <link rel="stylesheet" href="https://ergodiclabs.github.io/blog/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="https://ergodiclabs.github.io/blog/css/code.min.4f0ccc8439f99bf7f7970298556b94011aabc1fcae743b6842fc3361a2da9ea3.css">
+
+  
+  <link rel="stylesheet" href="https://ergodiclabs.github.io/blog/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="https://ergodiclabs.github.io/blog/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="https://ergodiclabs.github.io/blog/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="https://ergodiclabs.github.io/blog/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="https://ergodiclabs.github.io/blog/css/main.min.15870410d15d02abd22fb5ef00996f65a00d04b3a7435e9f83831c7c2298de88.css">
+
+  
+  <link rel="stylesheet" href="https://ergodiclabs.github.io/blog/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="https://ergodiclabs.github.io/blog/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="https://ergodiclabs.github.io/blog/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="https://ergodiclabs.github.io/blog/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="https://ergodiclabs.github.io/blog/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="https://ergodiclabs.github.io/blog/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="https://ergodiclabs.github.io/blog/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="https://ergodiclabs.github.io/blog/favicon.png">
+<link rel="apple-touch-icon" href="https://ergodiclabs.github.io/blog/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Code is a scalpel, prose is a chainsaw">
+<meta property="og:description" content="Every time I sit down to program these days, there is an annoying thought in the back of my mind that I should be programming with AI. While I have had some good experiences building things with Cursor and especially with Claude Code, I have also found that it is a waste of my time to use them when working on complex programs using tools that I am very comfortable with.
+" />
+<meta property="og:url" content="https://ergodiclabs.github.io/blog/posts/code-is-a-scalpel/" />
+<meta property="og:site_name" content="Ergodic Labs blog" />
+
+  <meta property="og:image" content="https://ergodiclabs.github.io/blog/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2025-05-05 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="https://ergodiclabs.github.io/blog/">
+  <div class="logo">
+    Ergodic Labs blog
+  </div>
+</a>
+
+    </div>
+    
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://ergodiclabs.github.io/blog/posts/code-is-a-scalpel/">Code is a scalpel, prose is a chainsaw</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-05-05</time><span class="post-author">zomglings</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="https://ergodiclabs.github.io/blog/tags/ai/">ai</a>&nbsp;
+      
+      #<a href="https://ergodiclabs.github.io/blog/tags/programming/">programming</a>&nbsp;
+      
+      #<a href="https://ergodiclabs.github.io/blog/tags/code/">code</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Every time I sit down to program these days, there is an annoying thought in the back of my mind that I should be programming with AI.
+While I have had some good experiences building things with Cursor and especially with Claude Code, I have also found that it is a waste
+of my time to use them when working on complex programs using tools that I am very comfortable with.</p>
+<p>It is very clear to me that AI will overtake human ability to create and improve computer programs in the long run. It isn&rsquo;t there yet.
+It won&rsquo;t get there by pair programming with us the way that Claude Code, Cursor, or Windsurf do.</p>
+<p>Here is why I think that the current crop of AI code assistants has the wrong form, and what a right form is:</p>
+<h3 id="i-code-is-an-efficient-representation-of-thought">I. Code is an efficient representation of thought<a href="#i-code-is-an-efficient-representation-of-thought" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Programming languages offer us concise and precise ways to tell a computer what we would like for it to do.
+<a href="https://en.wikipedia.org/wiki/APL_(programming_language)">Some languages</a> are more concise than others. But
+any programming language is more concise and precise than any natural language.</p>
+<h3 id="ii-the-prompts-we-create-for-llms-are-extremely-verbose-representations-of-our-thoughts">II. The prompts we create for LLMs are extremely verbose representations of our thoughts<a href="#ii-the-prompts-we-create-for-llms-are-extremely-verbose-representations-of-our-thoughts" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Accurately conveying our desires about a program we are building to a Large Language Model (LLM) requires us to
+be extremely verbose. We require precision, which requires context, which we must provide in natural language, which is
+both more verbose and more ambiguous than code.</p>
+<p><a href="https://en.wikipedia.org/wiki/Edsger_W._Dijkstra">Edsger Dijkstra</a>, in
+<a href="https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html">EWD 667: On the foolishness of &ldquo;natural language programming&rdquo;</a>,
+discusses this in more detail. He also points out that people may be getting poorer in their use of language, which will exacerbate the problem of
+being able to communicate effectively with computers in natural languages.</p>
+<h3 id="iii-programmers-communicate-better-in-code-than-prose">III. Programmers communicate better in code than prose<a href="#iii-programmers-communicate-better-in-code-than-prose" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Programmers spend a lot of their lives learning to formulate their ideas as code. Once a programmer has developed this skill to some minimal level,
+it is much more efficient for them to represent technical ideas as code rather than in natural language. Being forced to use a natural language instead of
+code is really painful for me, and I think this true of most programmers.</p>
+<h3 id="iv-ai-peering-vs-ai-pairing">IV. AI peering vs. AI pairing<a href="#iv-ai-peering-vs-ai-pairing" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>The models provided by Open AI, Anthropic, etc. already have more knowledge than any human does. My greatest successes in using these models for programming
+have come from exploiting this fact. Although I find it really exhausting to try and prompt AI to write a program for me, I find it refreshing when it teaches me things
+I didn&rsquo;t know, or when it reviews code that I&rsquo;ve written.</p>
+<p>Another source of successes is very small, well-scoped tasks that I can test and review easily. These are tasks that Claude Code can typically complete in a single shot without additional prompting.</p>
+<p>This has made me realize that, rather than pair with AI, I would much prefer:</p>
+<ol>
+<li>Live interactions involving me learning from the AI.</li>
+<li>Offline interactions grounded in code and diffs. Communication purely over Pull Requests.</li>
+</ol>
+<p>The first item is already possible. I see that there are a few AI companies working on making my second preference possible. And I don&rsquo;t have to leave it to them
+to implement what I want - I also know of several individuals building such tooling for themselves.</p>
+<p>I suspect the coming year will see us move from AI assistants such as Claude Code and Cursor to AI peers who operate autonomously over code and only interact with
+us when they want to push a change.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h"></span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+    
+    
+      <a href="https://ergodiclabs.github.io/blog/posts/ai-mode-shift-2025-03/" class="button inline next">
+         [<span class="button__text">The Model Context Protocol signals a mode shift in AI products</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/blog/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
