@@ -51,7 +51,8 @@ This has made me realize that, rather than pair with AI, I would much prefer:
 2. Offline interactions grounded in code and diffs. Communication purely over Pull Requests.
 
 The first item is already possible. I see that there are a few AI companies working on making my second preference possible. And I don't have to leave it to them
-to implement what I want - I also know of several individuals building such tooling for themselves.
+to implement what I want - I also know of several individuals building such tooling for themselves. The fact that such powerful models are available via API means
+that anyone comfortable writing code can experiment with building such tooling for themselves.
 
-I suspect the coming year will see us move from AI assistants such as Claude Code and Cursor to AI peers who operate autonomously over code and only interact with
+I suspect the coming 6 months will see us move from AI assistants such as Claude Code and Cursor to AI peers who operate autonomously over code and only interact with
 us when they want to push a change.
